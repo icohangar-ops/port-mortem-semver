@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T11:39:01.366Z",
+  "generatedAt": "2026-08-01T12:22:44.759Z",
   "platform": "darwin arm64",
   "node": "v26.0.0",
   "nodeCli": "vendor/node-semver/bin/semver.js",
@@ -8,88 +8,88 @@
     "version-check": {
       "node": {
         "runs": 30,
-        "meanMs": 46.44,
-        "medianMs": 46.071,
-        "minMs": 44.525,
-        "maxMs": 52.225
+        "meanMs": 49.64,
+        "medianMs": 47.739,
+        "minMs": 45.53,
+        "maxMs": 67.024
       },
       "rust": {
         "runs": 30,
-        "meanMs": 2.052,
-        "medianMs": 2.03,
-        "minMs": 1.914,
-        "maxMs": 2.495
+        "meanMs": 2.6,
+        "medianMs": 2.375,
+        "minMs": 2.017,
+        "maxMs": 4.14
       },
-      "speedup": 22.7
+      "speedup": 20.1
     },
     "compare": {
       "node": {
         "runs": 30,
-        "meanMs": 46.906,
-        "medianMs": 46.81,
-        "minMs": 45.455,
-        "maxMs": 48.895
+        "meanMs": 47.064,
+        "medianMs": 47.193,
+        "minMs": 45.86,
+        "maxMs": 50.505
       },
       "rust": {
         "runs": 30,
-        "meanMs": 2.031,
-        "medianMs": 2.032,
-        "minMs": 1.857,
-        "maxMs": 2.222
+        "meanMs": 2.085,
+        "medianMs": 2.041,
+        "minMs": 1.931,
+        "maxMs": 2.594
       },
-      "speedup": 23.04
+      "speedup": 23.12
     },
     "range-filter": {
       "node": {
         "runs": 30,
-        "meanMs": 48.581,
-        "medianMs": 48.503,
-        "minMs": 47.192,
-        "maxMs": 51.503
+        "meanMs": 48.844,
+        "medianMs": 48.717,
+        "minMs": 47.313,
+        "maxMs": 51.799
       },
       "rust": {
         "runs": 30,
-        "meanMs": 6.172,
-        "medianMs": 6.206,
-        "minMs": 5.855,
-        "maxMs": 6.477
+        "meanMs": 6.186,
+        "medianMs": 6.21,
+        "minMs": 5.803,
+        "maxMs": 6.753
       },
-      "speedup": 7.82
+      "speedup": 7.84
     }
   },
   "throughput": {
     "sort": {
       "versions": 20000,
       "node": {
-        "totalMs": 516.224,
-        "baselineMs": 46.722,
-        "workMs": 469.502,
-        "versionsPerSecond": 42598
+        "totalMs": 500.021,
+        "baselineMs": 46.677,
+        "workMs": 453.344,
+        "versionsPerSecond": 44117
       },
       "rust": {
-        "totalMs": 209.596,
-        "baselineMs": 2.024,
-        "workMs": 207.572,
-        "versionsPerSecond": 96352
+        "totalMs": 213.879,
+        "baselineMs": 2.049,
+        "workMs": 211.83,
+        "versionsPerSecond": 94415
       },
-      "speedup": 2.26,
+      "speedup": 2.14,
       "sameOutput": true
     },
     "satisfies": {
       "versions": 20000,
       "node": {
-        "totalMs": 424.169,
-        "baselineMs": 44.283,
-        "workMs": 379.886,
-        "versionsPerSecond": 52647
+        "totalMs": 427.453,
+        "baselineMs": 44.372,
+        "workMs": 383.081,
+        "versionsPerSecond": 52208
       },
       "rust": {
-        "totalMs": 43.127,
-        "baselineMs": 6.136,
-        "workMs": 36.991,
-        "versionsPerSecond": 540674
+        "totalMs": 43.394,
+        "baselineMs": 6.166,
+        "workMs": 37.228,
+        "versionsPerSecond": 537232
       },
-      "speedup": 10.27,
+      "speedup": 10.29,
       "sameOutput": true
     }
   }
