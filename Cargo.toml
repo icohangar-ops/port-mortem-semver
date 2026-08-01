@@ -1,0 +1,36 @@
+[package]
+name = "node-semver-rs"
+version = "0.1.0"
+edition = "2021"
+license = "ISC"
+description = "Port Mortem Track F: npm/node-semver rewritten in Rust"
+readme = "README.md"
+default-run = "semver"
+
+[[bin]]
+name = "semver"
+path = "src/bin/semver.rs"
+
+[[bin]]
+name = "semver-rpc"
+path = "src/bin/semver_rpc.rs"
+
+[lib]
+name = "node_semver_rs"
+path = "src/lib.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+regex = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+once_cell = "1"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "compare"
+path = "bench/compare.rs"
+harness = false

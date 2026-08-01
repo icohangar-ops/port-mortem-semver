@@ -1,0 +1,37 @@
+{
+  "name": "semver-rust-adapter",
+  "version": "0.1.0",
+  "description": "Thin Node.js adapter that runs the original npm/node-semver test suite against the Rust port.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "pretest": "node scripts/sync-tests.js",
+    "test": "tap"
+  },
+  "devDependencies": {
+    "tap": "^16.0.0"
+  },
+  "bin": {
+    "semver": "bin/semver.js"
+  },
+  "files": [
+    "bin/",
+    "classes/",
+    "functions/",
+    "internal/",
+    "ranges/",
+    "index.js",
+    "preload.js",
+    "range.bnf"
+  ],
+  "tap": {
+    "timeout": 120,
+    "coverage": false,
+    "check-coverage": false,
+    "coverage-map": "map.js"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=10"
+  }
+}

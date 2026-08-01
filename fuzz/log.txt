@@ -1,0 +1,4 @@
+seed: 4242
+duration: 60.0s
+calls: 3445400
+divergences: 0

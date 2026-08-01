@@ -1,0 +1,7 @@
+track = "F"
+source_url = "https://github.com/npm/node-semver"
+source_commit = "6e05b7637396ac66522cff8731f07cfe0ef49a29"
+source_language = "JavaScript"
+target_language = "Rust"
+kickoff_hash_file = "tests/original.SHA256SUMS"
+team = "solo"

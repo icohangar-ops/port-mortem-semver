@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-08-01T11:39:01.366Z",
+  "platform": "darwin arm64",
+  "node": "v26.0.0",
+  "nodeCli": "vendor/node-semver/bin/semver.js",
+  "rustCli": "target/release/semver",
+  "startup": {
+    "version-check": {
+      "node": {
+        "runs": 30,
+        "meanMs": 46.44,
+        "medianMs": 46.071,
+        "minMs": 44.525,
+        "maxMs": 52.225
+      },
+      "rust": {
+        "runs": 30,
+        "meanMs": 2.052,
+        "medianMs": 2.03,
+        "minMs": 1.914,
+        "maxMs": 2.495
+      },
+      "speedup": 22.7
+    },
+    "compare": {
+      "node": {
+        "runs": 30,
+        "meanMs": 46.906,
+        "medianMs": 46.81,
+        "minMs": 45.455,
+        "maxMs": 48.895
+      },
+      "rust": {
+        "runs": 30,
+        "meanMs": 2.031,
+        "medianMs": 2.032,
+        "minMs": 1.857,
+        "maxMs": 2.222
+      },
+      "speedup": 23.04
+    },
+    "range-filter": {
+      "node": {
+        "runs": 30,
+        "meanMs": 48.581,
+        "medianMs": 48.503,
+        "minMs": 47.192,
+        "maxMs": 51.503
+      },
+      "rust": {
+        "runs": 30,
+        "meanMs": 6.172,
+        "medianMs": 6.206,
+        "minMs": 5.855,
+        "maxMs": 6.477
+      },
+      "speedup": 7.82
+    }
+  },
+  "throughput": {
+    "sort": {
+      "versions": 20000,
+      "node": {
+        "totalMs": 516.224,
+        "baselineMs": 46.722,
+        "workMs": 469.502,
+        "versionsPerSecond": 42598
+      },
+      "rust": {
+        "totalMs": 209.596,
+        "baselineMs": 2.024,
+        "workMs": 207.572,
+        "versionsPerSecond": 96352
+      },
+      "speedup": 2.26,
+      "sameOutput": true
+    },
+    "satisfies": {
+      "versions": 20000,
+      "node": {
+        "totalMs": 424.169,
+        "baselineMs": 44.283,
+        "workMs": 379.886,
+        "versionsPerSecond": 52647
+      },
+      "rust": {
+        "totalMs": 43.127,
+        "baselineMs": 6.136,
+        "workMs": 36.991,
+        "versionsPerSecond": 540674
+      },
+      "speedup": 10.27,
+      "sameOutput": true
+    }
+  }
+}

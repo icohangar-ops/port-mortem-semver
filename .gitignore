@@ -1,0 +1,6 @@
+/target
+adapter/node_modules
+# mirrored from tests/original by adapter/scripts/sync-tests.js — never edit hashed originals
+adapter/test
+*.log
+.DS_Store
