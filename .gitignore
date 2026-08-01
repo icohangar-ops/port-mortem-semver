@@ -4,3 +4,8 @@ adapter/node_modules
 adapter/test
 *.log
 .DS_Store
+demo/frames/
+demo/frames5/
+demo/live-*.log
+demo/record_live.out
+demo/render.log
